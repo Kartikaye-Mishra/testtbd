@@ -21,7 +21,7 @@ export default function ServiceCard() {
               {/* <!-- <div class="icon"><i class="bx bxl-dribbble"></i></div> --> */}
               <img style={{height:'16rem',width:'10rem'}}  src={`${data.imgURL}`} alt="" />
               <h2><a href="">Software Development</a></h2>
-              <p>Cysco develops quality software and offers related services
+              <p>Webmigo develops quality software and offers related services
                 software consulting, cloud migration, app integration, and more.
               </p>
             </div>
