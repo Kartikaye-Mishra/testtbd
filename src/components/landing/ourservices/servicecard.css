@@ -1,0 +1,23 @@
+.singleCard {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+  }
+  
+  .singleCard .card-body {
+    flex: 1;
+  }
+
+  @media screen and (min-width:1400px) {
+      .main_card_container{
+          
+          min-height: 28rem; 
+   }
+  }
+  @media screen and (max-width:1400px) {
+    .main_card_container{
+          
+        min-height: 26rem; 
+ }
+  }

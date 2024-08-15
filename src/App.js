@@ -10,6 +10,7 @@ import Sb from './components/scrollbtn/Sb'
 import Contact from './components/contact/Contact'
 import Notfound from './components/notfound/Notfound'
 import ReadBlog from './components/blogs/sections/ReadBlog'
+
 import { Toaster } from 'react-hot-toast'
 
 class App extends Component
@@ -24,15 +25,15 @@ class App extends Component
                   <Navbar />
               </div>
 
-              <div className = '_body'>
+              <div  className = '_body'>
                   <Routes>
                       <Route exact path = '/' element = {<Landing />} />
                       <Route path = '/OpenSchool' element = {<Landing />} />
                       <Route path = '/about' element = {<About />} />
                       <Route path = '/blogs/*' element = {<Blogs />} >
                       </Route>
+                      
                         <Route path = '/blogs/read-blog/:id' element={<ReadBlog />} />
-      
                       <Route path = '/contact' element = {<Contact />} />
                       <Route path = '*' element = {<Notfound />} />
                   </Routes>

@@ -1,0 +1,26 @@
+.singleCard{
+    min-width: 25rem;
+    transition: transform 0.3s ease-in-out; 
+    border-radius: 8px;
+
+}
+.singleCard:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (min-width:1200px) and (max-width:1440px) {
+    .singleCard{
+        min-width: 20rem;
+    } 
+}
+@media screen and (min-width:768px) and (max-width:1200px) {
+    .singleCard{
+        min-width: 18rem;
+    } 
+}
+@media screen and (min-width:0px) and (max-width:425px) {
+    .singleCard{
+        min-width: 17rem;
+    } 
+}

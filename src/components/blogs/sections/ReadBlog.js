@@ -23,7 +23,8 @@ useEffect(() => {
   return (
       <>
     
-     <div className="main_content h-full w-full" style={{ margin: isRefreshed ? '6rem 0' : '1rem 0' }}>
+     <div className="main_content w-full" style={{ margin: isRefreshed ? '6rem 0' : '1rem 0' }}>
+
         <div className="top">
           <h2>{data[blogNumber]?.title} <span style={{color:'#e91e63'}}>{data[blogNumber]?.titleSec}</span></h2>
 
@@ -32,10 +33,7 @@ useEffect(() => {
 
    
         <div className="mid">
-          {/* <div className="mid-image"> */}
-
-          {/* <img style={{height:'100%',width:'100%'}} src={`${data[blogNumber]?.imgURL}`} alt="Blog image" /> */}
-          {/* </div> */}
+          
           <h3>{data[blogNumber]?.subTitle}</h3>
           <div className="mid_content">
           {

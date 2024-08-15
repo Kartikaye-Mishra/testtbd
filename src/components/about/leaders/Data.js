@@ -1,7 +1,7 @@
 
 let leaders = [
 	{
-		name: 'ishan',
+		name: 'ishan srivastava',
 		desc: 'full stack javascript developer, cyber security lover and problem solver',
 		skills: 'Full Sack Developer | Pentester',
 		nickname: "amaitou",
