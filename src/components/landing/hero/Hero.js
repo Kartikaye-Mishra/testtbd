@@ -16,7 +16,7 @@ class Hero extends Component
 							<div className = 'left-side mb-lg-0 mb-5 text-lg-start text-center'>
 								<h3 className = 'title text-capitalize'>welcome to <span>webmigo</span> !</h3>
 								<p className = 'sub-title text-muted text-capitalize'>what's your design</p>
-								<p className = 'desc pb-3'>
+								<p style={{textAlign:'justify'}} className = 'desc pb-3 '>
 								Welcome to webmigo, where innovation meets creativity in web development. We specialize in crafting stunning, user-friendly websites that bring your vision to life. Our expert team is dedicated to delivering tailored solutions that drive results. Let's build something extraordinary together. Explore the future of digital experiences with us!
 								</p>
 								<div className = 'buttons'>
