@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-export const server = 'http://localhost:5000'
+
+export const server = 'https://webmigo-backend.onrender.com'
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

@@ -42,7 +42,7 @@ class Contact extends Component {
       });
     } catch (error) {
       console.error('There was an error sending the query!', error);
-      toast.error("There was an error sending the query");
+      toast.error("There was an error sending the query please try again after some time.");
     }
   };
 
