@@ -2,6 +2,7 @@
 import React, {Component} from 'react'
 import './Leaders.css'
 import {leaders} from './Data'
+import { title } from '../../constants'
 
 class Leaders extends Component
 {
@@ -31,7 +32,7 @@ class Leaders extends Component
 			<div className = 'leaders py-5 mb-5'>
 				<div className = 'container'>
 					<div className = 'title py-5 text-md-start text-center'>
-						<h4 className = 'sub-title text-capitalize'>webmigo <span>leaders</span></h4>
+						<h4 className = 'sub-title text-capitalize'>{title} <span>leaders</span></h4>
 					</div>
 					<div className = '_b d-flex justify-content-center flex-wrap'>
 						{this.display_leaders()}

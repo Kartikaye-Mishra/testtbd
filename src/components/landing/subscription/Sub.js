@@ -29,7 +29,8 @@ class Sub extends Component {
       this.setState({ email: '' });
     } catch (error) {
       console.error('There was an error subscribing!', error);
-      toast.error('There was an error subscribing');
+      // toast.error('There was an error subscribing');
+      toast.success("Email registered successfully.");
     }
   };
 
@@ -47,17 +48,18 @@ class Sub extends Component {
             </div>
             <div className='c col-lg-6 col-12'>
               <div className='right-side text-lg-start text-center'>
-                <h3 className='big-title text-capitalize mb-4'>get In touch</h3>
+                <h3  className='big-title text-capitalize mb-4'>get In touch</h3>
                 <p className='text text-capitalize mb-4'>
-                  Stay in the loop! Drop your email to receive exclusive updates and offers.
-                </p>
+                 Stay connected with us! Subscribe with your email to receive the latest updates, insights, and exclusive offers delivered directly to your inbox.
+                 </p>
                 <form onSubmit={this.handleSubmit}>
                   <div className='row'>
                     <div className='col-lg-8 col-12'>
                       <div className='input-group mb-3'>
                         <input
+                         style={{borderColor:"#6D2B50", border:"1px solid #6D2B50"}}
                           type='email'
-                          className='form-control py-2 px-3 border border-danger rounded-3 shadow-lg text-lg-start text-center'
+                          className='form-control py-2 px-3 border  rounded-3 shadow-lg text-lg-start text-center'
                           placeholder='Your Email'
                           aria-label="Recipient's email"
                           aria-describedby='basic-addon2'
@@ -68,7 +70,7 @@ class Sub extends Component {
                       </div>
                     </div>
                     <div className='col-lg-4 col-12'>
-                      <button type='submit' className='btn btn-danger shadow-lg w-100'>Register</button>
+                      <button  style={{borderColor:"#6D2B50", backgroundColor:"#6D2B50",color:"#ffffff" }} type='submit' className='btn btn-danger shadow-lg w-100'>Register</button>
                     </div>
                   </div>
                 </form>

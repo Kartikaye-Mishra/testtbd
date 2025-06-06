@@ -33,10 +33,10 @@ export default function App() {
         <div  className = '_body'>
             <Routes>
                 <Route exact path = '/' element = {<Landing />} />
-                <Route path = '/OpenSchool' element = {<Landing />} />
+                {/* <Route path = '/OpenSchool' element = {<Landing />} /> */}
                 <Route path = '/about' element = {<About />} />
-                <Route path = '/blogs/*' element = {<Blogs />} >
-                </Route>
+                {/* <Route path = '/blogs/*' element = {<Blogs />} >
+                </Route> */}
                 
                   <Route path = '/blogs/read-blog/:id' element={<ReadBlog />} />
                 <Route path = '/contact' element = {<Contact />} />

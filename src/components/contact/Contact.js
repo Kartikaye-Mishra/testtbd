@@ -81,7 +81,7 @@ class Contact extends Component {
                       <label htmlFor='message' className='mb-2 text-capitalize'>write your message down here</label>
                       <textarea className='form-control py-2 px-3' id='message' rows='4' value={message} onChange={this.handleChange}></textarea>
                     </div>
-                    <button type='submit' className='btn btn-outline-danger text-capitalize w-25 mx-auto'>send</button>
+                    <button type='submit' style={{borderColor:"#6D2B50", backgroundColor:"#6D2B50",color:"#ffffff" }} className='btn  text-capitalize w-25 mx-auto'>send</button>
                   </div>
                 </form>
               </div>

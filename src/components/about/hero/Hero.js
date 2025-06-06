@@ -3,6 +3,7 @@ import React, {Component} from 'react'
 import './Hero.css'
 // import {Link} from 'react-router-dom'
 import about from '../../../images/sections/about.svg'
+import { title } from '../../constants'
 
 class Hero extends Component
 {
@@ -17,8 +18,8 @@ class Hero extends Component
 					<div className = 'row align-items-center'>
 						<div className = 'c col-lg-6 col-12'>
 							<div className = 'left-side mb-lg-0 mb-5 text-lg-start text-center'>
-								<h5 className = 'title text-capitalize mb-3'>we are <span>webmigo</span></h5>
-								<p style={{textAlign:'justify'}}  className  = 'desc mb-lg-4 mb-5'>Welcome to Webmigo, where your digital dreams become reality. At Webmigo, we blend creativity with cutting-edge technology to create websites that not only look stunning but perform flawlessly. Our team of passionate developers and designers is committed to delivering tailored web solutions that resonate with your brand and engage your audience. Whether you're launching a new venture or revitalizing an existing one, we're here to guide you every step of the way. With Webmigo, you're not just getting a website—you're investing in a powerful digital presence. Let's collaborate to build something extraordinary, and watch your business thrive online!</p>
+								<h5 className = 'title text-capitalize mb-3'>we are <span>{title}</span></h5>
+								<p style={{textAlign:'justify'}}  className  = 'desc mb-lg-4 mb-5'>Welcome to {title}, where your digital dreams become reality. At {title}, we blend creativity with cutting-edge technology to create websites that not only look stunning but perform flawlessly. Our team of passionate developers and designers is committed to delivering tailored web solutions that resonate with your brand and engage your audience. Whether you're launching a new venture or revitalizing an existing one, we're here to guide you every step of the way. With {title}, you're not just getting a website—you're investing in a powerful digital presence. Let's collaborate to build something extraordinary, and watch your business thrive online!</p>
 							</div>
 						</div>
 						<div className = 'c col-lg-6 col-12'>

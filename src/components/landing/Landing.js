@@ -17,10 +17,10 @@ class Landing extends Component
                 <Materials />
                 <Sub />
                 {/* <Stats /> */}
-                <Rs />
+                {/* <Rs /> */}
 				<Services />
                 {/* <Tes /> */}
-                <Faq />
+                {/* <Faq /> */}
 			</>
 		)
 	}

@@ -14,7 +14,7 @@ export default function Services() {
 							<h4 className = 'sub-title text-capitalize'>our <span>'services'</span></h4>
 							</div>
 			
-						<div style={{display:'flex',flexWrap:'wrap',justifyContent:'center',gap:'1rem'}} >
+						<div style={{display:'flex',flexWrap:'wrap',justifyContent:'center',gap:'1rem', textAlign:'center'}} >
 						{
 						  data.map((item, index) => (
 							<div key={index} style={{flexBasis: 'calc(33.33% - 1rem)'}} className='singleCard'>

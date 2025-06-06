@@ -26,7 +26,7 @@ useEffect(() => {
      <div className="main_content w-full" style={{ margin: isRefreshed ? '6rem 0' : '1rem 0' }}>
 
         <div className="top">
-          <h2>{data[blogNumber]?.title} <span style={{color:'#e91e63'}}>{data[blogNumber]?.titleSec}</span></h2>
+          <h2>{data[blogNumber]?.title} <span style={{color:'#6D2B50'}}>{data[blogNumber]?.titleSec}</span></h2>
 
           <p>{data[blogNumber]?.introduction}</p>
         </div>
@@ -42,7 +42,7 @@ useEffect(() => {
        <p>
         <span style={{fontWeight:'bold',marginRight:'0.2rem'}} className="point_title">{item.title}: </span>
         {item.description}
-      <span style={{ color: '#e91e63' }}>
+      <span style={{ color: '#6D2B50' }}>
         <br />{item.callToAction}</span>
       </p>
       

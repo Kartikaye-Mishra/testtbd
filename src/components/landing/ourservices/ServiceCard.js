@@ -10,7 +10,7 @@ export default function ServiceCard({data}) {
     <Card.Img style={{width:'60%',margin:'0 auto'}} variant="top" src={`${data.imgURL}`} className='mt-2 ' />
     <Card.Body style={{height:'auto'}}>
       
-      <Card.Title style={{color:'#e91e63'}} className='text-center font-bold'>{`${data.title}`}</Card.Title>
+      <Card.Title style={{color:'#6D2B50'}} className='text-center font-bold'>{`${data.title}`}</Card.Title>
       <Card.Text style={{textAlign:'justify',width:'auto'}} className=' '>
       {`${data.desc}`}
       </Card.Text>
