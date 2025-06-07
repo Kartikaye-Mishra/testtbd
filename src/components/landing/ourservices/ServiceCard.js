@@ -1,6 +1,14 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card';
 import './servicecard.css'
+import PropTypes from 'prop-types';
+ServiceCard.propTypes = {
+  data: PropTypes.shape({
+    imgURL: PropTypes.string,
+    title: PropTypes.string,
+    desc: PropTypes.string,
+  }).isRequired,
+};
 
 export default function ServiceCard({data}) {
  

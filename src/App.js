@@ -5,11 +5,9 @@ import Navbar from './components/navbar/Navbar'
 import Footer from './components/footer/Footer'
 import Landing from './components/landing/Landing'
 import About from './components/about/About'
-import Blogs from './components/blogs/Blogs'
 import Sb from './components/scrollbtn/Sb'
 import Contact from './components/contact/Contact'
 import Notfound from './components/notfound/Notfound'
-import ReadBlog from './components/blogs/sections/ReadBlog'
 import axios from 'axios';
 import {server} from './index'
 import { Toaster } from 'react-hot-toast'
@@ -38,7 +36,7 @@ export default function App() {
                 {/* <Route path = '/blogs/*' element = {<Blogs />} >
                 </Route> */}
                 
-                  <Route path = '/blogs/read-blog/:id' element={<ReadBlog />} />
+                  {/* <Route path = '/blogs/read-blog/:id' element={<ReadBlog />} /> */}
                 <Route path = '/contact' element = {<Contact />} />
                 <Route path = '*' element = {<Notfound />} />
             </Routes>
@@ -57,6 +55,3 @@ export default function App() {
 
 
 
-
-
-// ishan srivastava

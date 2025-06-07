@@ -5,7 +5,7 @@ import {categories} from './Data'
 
 class Materials extends Component
 {
-	display_categories = _ =>
+	display_categories = () =>
 	{
 		let items = categories.map((item, index) =>
 		{

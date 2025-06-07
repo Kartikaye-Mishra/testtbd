@@ -1,1 +1,1 @@
-export const title = "TBD"
+export const title = "IntelliInsights"

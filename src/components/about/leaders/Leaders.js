@@ -6,7 +6,7 @@ import { title } from '../../constants'
 
 class Leaders extends Component
 {
-	display_leaders = _ =>
+	display_leaders = () =>
 	{
 		let items = leaders.map((item, index) =>
 		{

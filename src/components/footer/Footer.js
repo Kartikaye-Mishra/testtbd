@@ -9,7 +9,7 @@ import { title } from '../constants'
 
 class Footer extends Component
 {
-	display_navbar_items = _ =>
+	display_navbar_items = () =>
 	{
 		let items = navbar_items.map(item =>
 		{
@@ -20,7 +20,7 @@ class Footer extends Component
 		return items
 	}
 
-	display_accounts = _ =>
+	display_accounts = () =>
 	{
 		let items = accounts.map((item, index) =>
 		{
@@ -33,7 +33,7 @@ class Footer extends Component
 		return items
 	}
 
-	display_page_elements = _ =>
+	display_page_elements = () =>
 	{
 		const elements = ["", "materials","subscribe", 'faq']
 
